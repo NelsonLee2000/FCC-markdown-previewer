@@ -41,7 +41,7 @@ function App() {
     <><div className="container">
     <div className="editorbox">
       <h3 className="editortitle">Editor</h3>
-      <textarea rows="15" cols="70" id="editor" onChange={(e) => setText(e.target.value)} value={text} ></textarea>
+      <textarea id="editor" onChange={(e) => setText(e.target.value)} value={text} ></textarea>
     </div>
     
     <div className="previewbox">
