@@ -2,8 +2,9 @@
   display:flex;
   flex-direction: column;
   align-items:center;
-  border: 3px solid red;
   min-width: 500px;
+  margin: 15px;
+  border: 1px white solid;
 }
 
 .container {
@@ -24,13 +25,20 @@
   border: 1px white solid;
   margin:0;
   padding: 5px;
-}
-
-.editorbox {
-  margin: 15px;
-  border: 1px white solid;
+  width:98%
 }
 
 #preview {
-  overflow:auto
+  overflow:auto;
+  padding: 5px;
+}
+
+#editor {
+  width:100%;
+  height:33vh;
+  resize:none;
+}
+
+img {
+  max-width:100%;
 }
