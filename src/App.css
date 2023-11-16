@@ -1,0 +1,36 @@
+.editorbox {
+  display:flex;
+  flex-direction: column;
+  align-items:center
+  border: 3px solid red;
+  min-width: 500px;
+}
+
+.container {
+  display:flex;
+  flex-direction:column;
+  justify-items:center;
+  align-items:center;
+}
+
+.previewbox {
+  border: 1px white solid;
+  min-width: 650px;
+  max-width: 600px;
+  
+}
+
+.previewtitle, .editortitle {
+  border: 1px white solid;
+  margin:0;
+  padding: 5px;
+}
+
+.editorbox {
+  margin: 15px;
+  border: 1px white solid;
+}
+
+#preview {
+  overflow:auto
+}
